@@ -1,0 +1,187 @@
+section {
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-radius: 25px;
+  transition: 0.5s ease;
+}
+
+.page .pageBtn {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  padding: 12px 30px;
+  border: 1px solid #ccc;
+  color: #000;
+  outline: none;
+  border-radius: 10px;
+  width: 200px;
+  background-color: #f1f1f1;
+  /* background-color: #d91c21; */
+  cursor: pointer;
+}
+
+.page .pageBtn:hover {
+  transform: scale(0.9);
+  transition: 0.5s ease;
+}
+
+.page .active {
+  background-color: #d91c21;
+  color: #fff;
+}
+
+.order-page {
+  display: none;
+}
+
+.order-page__click {
+  display: block;
+}
+
+.mainContent {
+  display: block;
+}
+
+.mainContent__click {
+  display: none;
+}
+
+.order-page {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.order-content{
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.order-page h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.order-page .manga-order__box {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.order-page .manga-order__box .manga-card__order {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.order-page .manga-order__box .manga-card__order img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.order-page .manga-order__box .manga-card__order p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.order-page .manga-order__box .manga-card__order span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.order-page .manga-order__box .manga-card__order button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.order-page .manga-order__box .many-orders button {
+  background-color: #d91c21;
+}
+
+.order-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.searchForm input {
+  outline: none;
+  border: 1px solid #363636;
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 80%;
+}
+
+.searchForm button{
+    color: #fff;
+    background-color: #d91c21;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin-top: 7px;
+    padding: 8px 40px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+
+.searchForm button:hover{
+    transform: scale(0.9);
+    transition: 0.3s ease;
+}
+
+#priceFilter {
+  margin-bottom: 40px;
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#priceFilter option {
+  background-color: #fff;
+  color: #333;
+  font-size: 14px;
+}

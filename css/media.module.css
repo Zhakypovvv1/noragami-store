@@ -1,0 +1,250 @@
+@media screen and (max-width: 996px) {
+  #header {
+    max-width: 100%;
+    padding: 0;
+  }
+  #header .logo {
+    width: 200px;
+    height: 80px;
+  }
+  #header .nav {
+    column-gap: 20px;
+  }
+  #header .nav .search-wrap input {
+    width: 270px;
+  }
+  .swipe {
+    width: 45%;
+    height: 250px;
+  }
+  .search-menu {
+    top: 75px;
+  }
+  .search-click {
+    right: 48%;
+  }
+  .image-wrap {
+    width: 33%;
+    height: 200px;
+  }
+  .slide-content {
+    max-width: 100%;
+  }
+  .catalog-swiper {
+    max-width: 100%;
+  }
+  .catalog-swiper nav {
+    flex-wrap: wrap;
+  }
+  .swiper-trend {
+    max-width: 100%;
+  }
+  .newSwiper-slides {
+    max-width: 100%;
+  }
+  .map-weather .grid {
+    display: none;
+  }
+  .manga .manga-card__box {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .manhva .manhva-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .manhua .manhua-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .ranobe .ranobe-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .comics .comics-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .toys .toys-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .popUp .popUp-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .nendoroid .nendoroid-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .artbooks .artbooks-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .icons .icons-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .sticker .sticker-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .poster .poster-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .mugs .mugs-card__box {
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  section {
+    max-width: 100%;
+  }
+  .order-page {
+    max-width: 100%;
+  }
+  .order-page .manga-order__box {
+    flex-wrap: wrap;
+  }
+  .order-content {
+    padding: 40px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #header {
+    max-width: 100%;
+    gap: 10px;
+  }
+  #header .logo {
+    width: 120px;
+    height: 50px;
+  }
+  #header .nav .search-wrap input {
+    width: 200px;
+    padding: 5px 30px;
+  }
+  #header .nav .search-wrap svg {
+    width: 20px;
+    height: 20px;
+    left: 5px;
+  }
+  #header .nav .catalog {
+    width: 30%;
+  }
+  #header .nav .catalog p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  #header .nav .musthave span {
+    font-size: 12px;
+  }
+  #header .nav .musthave svg {
+    width: 24px;
+    height: 24px;
+  }
+  #header .nav .user span {
+    font-size: 10px;
+  }
+  #header .nav .user svg {
+    width: 24px;
+    height: 24px;
+  }
+  #header .search-menu {
+    top: 48px;
+    width: 25%;
+  }
+  #header .search-click {
+    right: 55%;
+  }
+  .home-swiper {
+    margin-top: 20px;
+  }
+  .home-swiper .image-wrap {
+    margin-right: 10px;
+  }
+  .home-swiper .image-wrap img {
+    height: 200px;
+  }
+  .home-swiper .swipe {
+    height: 200px;
+  }
+  .catalog-swiper nav {
+    gap: 10px;
+  }
+  .map-weather .map iframe {
+    height: 200px;
+    width: 200px;
+  }
+  .map-weather .map h1 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .swiper-trend {
+    max-width: 100%;
+  }
+  .newSwiper-slides {
+    max-width: 100%;
+  }
+  .newSwiper-slides img {
+    width: 150px;
+  }
+  .home-swiper .swipe{
+    width: 95%;
+  }
+  .home-swiper .image-wrap {
+    display: none;
+  }
+  #header .search-click{
+    right: 40%;
+  }
+  #header .search-swipe div img{
+    width: 40px;
+    height: 40px;
+  }
+  #header .search-swipe div{
+    gap: 10px;
+    padding: 10px 10px;
+  }
+  #header .nav .search-wrap input{
+    width: 100px;
+  }
+  #header .nav .catalog{
+    padding: 0;
+    height: 40px;   
+  }
+  #header .nav .catalog p{
+    display: none;
+  }
+  .map-weather{
+    gap: 10px;
+  }
+  .map-weather .weather-container{
+    width: 260px;
+  }
+
+}
+
+@media screen and (max-width: 390px) {
+    #header {
+        gap: 20px;
+    }
+    #header .nav .search-wrap{
+        display: none;
+    }
+}

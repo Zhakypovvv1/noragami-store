@@ -1,0 +1,1081 @@
+/* manga */
+
+.manga {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.manga h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.manga .manga-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.manga .manga-card__box .manga-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.manga .manga-card__box .manga-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.manga .manga-card__box .manga-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 90%;
+}
+
+.manga .manga-card__box .manga-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.manga .manga-card__box .manga-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.manga .manga-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* manga */
+
+/* manhva */
+
+.manhva {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.manhva h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.manhva .manhva-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.manhva .manhva-card__box .manhva-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.manhva .manhva-card__box .manhva-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.manhva .manhva-card__box .manhva-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.manhva .manhva-card__box .manhva-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.manhva .manhva-card__box .manhva-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.manhva .manhva-card__box .many-orders button {
+  background-color: #d91c21;
+}
+/* manhva */
+
+/* manhua */
+
+.manhua {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.manhua h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.manhua .manhua-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.manhua .manhua-card__box .manhua-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.manhua .manhua-card__box .manhua-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.manhua .manhua-card__box .manhua-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.manhua .manhua-card__box .manhua-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.manhua .manhua-card__box .manhua-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.manhua .manhua-card__box .many-orders button {
+  background-color: #d91c21;
+}
+.manhua .manhua-card__box .white-order button {
+  color: #363636;
+  background-color: #f1f1f1;
+}
+
+/* manhua */
+
+/* ranobe */
+
+.ranobe {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.ranobe h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.ranobe .ranobe-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.ranobe .ranobe-card__box .ranobe-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.ranobe .ranobe-card__box .ranobe-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.ranobe .ranobe-card__box .ranobe-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.ranobe .ranobe-card__box .ranobe-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.ranobe .ranobe-card__box .ranobe-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.ranobe .ranobe-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* ranobe */
+
+/* comics */
+
+.comics {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.comics h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.comics .comics-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.comics .comics-card__box .comics-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.comics .comics-card__box .comics-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.comics .comics-card__box .comics-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.comics .comics-card__box .comics-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.comics .comics-card__box .comics-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.comics .comics-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* comics */
+
+
+/* toys */
+
+.toys {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.toys h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.toys .toys-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.toys .toys-card__box .toys-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.toys .toys-card__box .toys-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.toys .toys-card__box .toys-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.toys .toys-card__box .toys-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.toys .toys-card__box .toys-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.toys .toys-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* toys */
+
+
+/* popUp */
+
+.popUp {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.popUp h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.popUp .popUp-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.popUp .popUp-card__box .popUp-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.popUp .popUp-card__box .popUp-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.popUp .popUp-card__box .popUp-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.popUp .popUp-card__box .popUp-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.popUp .popUp-card__box .popUp-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.popUp .popUp-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* popUp */
+
+
+/* nendoroid */
+
+.nendoroid {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.nendoroid h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.nendoroid .nendoroid-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.nendoroid .nendoroid-card__box .nendoroid-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.nendoroid .nendoroid-card__box .nendoroid-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.nendoroid .nendoroid-card__box .nendoroid-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.nendoroid .nendoroid-card__box .nendoroid-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.nendoroid .nendoroid-card__box .nendoroid-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.nendoroid .nendoroid-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* nendoroid */
+
+
+/* artbooks */
+
+.artbooks {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.artbooks h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.artbooks .artbooks-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.artbooks .artbooks-card__box .artbooks-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.artbooks .artbooks-card__box .artbooks-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.artbooks .artbooks-card__box .artbooks-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.artbooks .artbooks-card__box .artbooks-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.artbooks .artbooks-card__box .artbooks-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.artbooks .artbooks-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* artbooks */
+
+
+/* icons */
+
+.icons {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.icons h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.icons .icons-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.icons .icons-card__box .icons-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.icons .icons-card__box .icons-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.icons .icons-card__box .icons-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.icons .icons-card__box .icons-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.icons .icons-card__box .icons-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.icons .icons-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* icons */
+
+
+
+/* sticker */
+
+.sticker {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.sticker h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.sticker .sticker-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.sticker .sticker-card__box .sticker-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.sticker .sticker-card__box .sticker-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.sticker .sticker-card__box .sticker-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.sticker .sticker-card__box .sticker-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.sticker .sticker-card__box .sticker-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.sticker .sticker-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+.sticker .sticker-card__box .white-order button {
+  background-color: #f1f1f1;
+  color: #363636;
+}
+
+/* sticker */
+
+
+/* poster */
+
+.poster {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.poster h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.poster .poster-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.poster .poster-card__box .poster-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.poster .poster-card__box .poster-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.poster .poster-card__box .poster-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.poster .poster-card__box .poster-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.poster .poster-card__box .poster-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.poster .poster-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* poster */
+
+
+/* mugs */
+
+.mugs {
+  max-width: 95%;
+  margin: 0 auto;
+}
+
+.mugs h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  letter-spacing: 0.5px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 26px;
+}
+
+.mugs .mugs-card__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 30px;
+}
+
+.mugs .mugs-card__box .mugs-card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 8px;
+}
+
+.mugs .mugs-card__box .mugs-card img {
+  object-fit: cover;
+  border-radius: 10px;
+  width: 170px;
+  height: 220px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.mugs .mugs-card__box .mugs-card p {
+  font-size: 15px;
+  font-weight: 400;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #363636;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 150px;
+}
+
+.mugs .mugs-card__box .mugs-card span {
+  font-size: 17px;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #d91c21;
+}
+
+.mugs .mugs-card__box .mugs-card button {
+  background-color: #5da61b;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.mugs .mugs-card__box .many-orders button {
+  background-color: #d91c21;
+}
+
+/* mugs */

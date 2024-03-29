@@ -1,0 +1,59 @@
+.weather-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #bf4c4c;
+  padding: 40px;
+  border-radius: 25px;
+  height: 330px;
+}
+
+#cityInput {
+  font-size: 18px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  width: 80%;
+  padding: 10px 40px;
+}
+
+#getWeatherBtn {
+  width: 50%;
+  border: none;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  cursor: pointer;
+}
+
+#getWeatherBtn:hover {
+  transition: 0.3s ease;
+}
+
+.weather-container div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 5px;
+}
+
+.weather-container div p {
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.weather-container div span {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
