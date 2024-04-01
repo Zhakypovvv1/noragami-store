@@ -63,10 +63,11 @@ modal.addEventListener("click", (event) => {
 apply.addEventListener("click", () => {
   inputGroup.classList.add("hide-content");
   modalGreeting.classList.add("show-content");
-
+  modalGreeting.innerHTML = ''
   timeout = setTimeout(() => {
     removeModalClasses();
     removeContentClasses();
+    
   }, 3000);
 });
 

@@ -76,12 +76,12 @@
 .burger-swipe div {
   display: inline-block;
   background: transparent;
-  border-radius: 20px;
+  border-radius: 15px;
   padding: 8px 15px;
-  margin-bottom: 25px;
-  margin-right: 15px;
+  margin-bottom: 35px;
   cursor: pointer;
-  border: 1px solid transparent;
+  border: 2px solid #be8c8c;
+  width: 100%;
   transition: all 500ms ease;
   font-size: 17px;
   font-family: sans-serif;
@@ -91,6 +91,7 @@
   justify-content: center;
   text-align: center;
 }
+
 
 .burger-swipe a{
   color: #000;
